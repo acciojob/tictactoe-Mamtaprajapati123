@@ -1,1 +1,33 @@
-/*  your css code here. If applicable */
+.container {
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 72px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.winner {
+  color: green;
+}
+
+.tie {
+  color: red;
+}
